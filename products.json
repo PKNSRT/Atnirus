@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "กระเป๋าสะพายข้างหนังแท้",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/1"
+  },
+  {
+    "id": 2,
+    "name": "นาฬิกาข้อมือสไตล์วินเทจ",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/2"
+  },
+  {
+    "id": 3,
+    "name": "รองเท้าวิ่งผู้ชาย",
+    "category": "กีฬา",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/3"
+  },
+  {
+    "id": 4,
+    "name": "เสื้อกีฬาแขนสั้น",
+    "category": "กีฬา",
+    "image": "https://images.unsplash.com/photo-1526406915890-3a2f2e2a9e6d?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/4"
+  },
+  {
+    "id": 5,
+    "name": "ชุดเครื่องครัวเซรามิก",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/5"
+  },
+  {
+    "id": 6,
+    "name": "โคมไฟตั้งโต๊ะดีไซน์โมเดิร์น",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/6"
+  },
+  {
+    "id": 7,
+    "name": "หูฟังบลูทูธคุณภาพสูง",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/7"
+  },
+  {
+    "id": 8,
+    "name": "ลำโพงบลูทูธพกพา",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1512446733611-9099a758e246?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/8"
+  },
+  {
+    "id": 9,
+    "name": "แว่นกันแดดแฟชั่นชาย",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/9"
+  },
+  {
+    "id": 10,
+    "name": "กระเป๋าเป้เดินทาง",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/10"
+  },
+  {
+    "id": 11,
+    "name": "เสื้อแจ็คเก็ตกันหนาว",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/11"
+  },
+  {
+    "id": 12,
+    "name": "เสื้อเชิ้ตแขนยาว",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/12"
+  },
+  {
+    "id": 13,
+    "name": "รองเท้าผ้าใบผู้หญิง",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1519741497159-7e33f4904d98?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/13"
+  },
+  {
+    "id": 14,
+    "name": "หมวกแก๊ปแฟชั่น",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1507120878965-7f858d3e4b63?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/14"
+  },
+  {
+    "id": 15,
+    "name": "เสื้อยืดคอกลม",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/15"
+  },
+  {
+    "id": 16,
+    "name": "กล้องถ่ายรูปดิจิทัล",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1519183071298-a2962cc32f0e?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/16"
+  },
+  {
+    "id": 17,
+    "name": "สมาร์ทโฟนรุ่นใหม่ล่าสุด",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/17"
+  },
+  {
+    "id": 18,
+    "name": "แท็บเล็ตหน้าจอขนาดใหญ่",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/18"
+  },
+  {
+    "id": 19,
+    "name": "สายชาร์จเร็ว USB-C",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1510552776732-41a19b4e1b17?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/19"
+  },
+  {
+    "id": 20,
+    "name": "หุ่นยนต์ดูดฝุ่นอัจฉริยะ",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1582201924509-5a7eb89ee6f8?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/20"
+  },
+  {
+    "id": 21,
+    "name": "พัดลมตั้งโต๊ะดีไซน์เก๋",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/21"
+  },
+  {
+    "id": 22,
+    "name": "หม้อทอดไร้น้ำมัน",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/22"
+  },
+  {
+    "id": 23,
+    "name": "เครื่องชงกาแฟสด",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/23"
+  },
+  {
+    "id": 24,
+    "name": "โต๊ะทำงานไม้แท้",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1501183638714-5e2c0b4f86c1?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/24"
+  },
+  {
+    "id": 25,
+    "name": "โซฟาหนังสำหรับห้องนั่งเล่น",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/25"
+  },
+  {
+    "id": 26,
+    "name": "ผ้าปูที่นอนนุ่มสบาย",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/26"
+  },
+  {
+    "id": 27,
+    "name": "หมอนสุขภาพเพื่อการนอนหลับ",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/27"
+  },
+  {
+    "id": 28,
+    "name": "พัดลมไอเย็นประหยัดไฟ",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1526406915890-3a2f2e2a9e6d?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/28"
+  },
+  {
+    "id": 29,
+    "name": "นาฬิกาปลุกดิจิทัล",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/29"
+  },
+  {
+    "id": 30,
+    "name": "ชุดเครื่องมือซ่อมแซมบ้าน",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1526045612212-70caf35c14df?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/30"
+  },
+  {
+    "id": 31,
+    "name": "เสื้อกันฝนมีฮู้ด",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/31"
+  },
+  {
+    "id": 32,
+    "name": "กางเกงยีนส์ชาย",
+    "category": "แฟชั่น",
+    "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/32"
+  },
+  {
+    "id": 33,
+    "name": "เครื่องปั่นน้ำผลไม้",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/33"
+  },
+  {
+    "id": 34,
+    "name": "เตารีดไอน้ำ",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/34"
+  },
+  {
+    "id": 35,
+    "name": "ลำโพงบลูทูธสำหรับคอมพิวเตอร์",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1512446733611-9099a758e246?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/35"
+  },
+  {
+    "id": 36,
+    "name": "สายชาร์จแบบไร้สาย",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1510552776732-41a19b4e1b17?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/36"
+  },
+  {
+    "id": 37,
+    "name": "โทรศัพท์มือถือราคาประหยัด",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/37"
+  },
+  {
+    "id": 38,
+    "name": "กล้องติดรถยนต์",
+    "category": "อิเล็กทรอนิกส์",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/38"
+  },
+  {
+    "id": 39,
+    "name": "ชุดอุปกรณ์เครื่องเขียน",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1526045612212-70caf35c14df?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/39"
+  },
+  {
+    "id": 40,
+    "name": "เก้าอี้สำนักงานปรับระดับได้",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1501183638714-5e2c0b4f86c1?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/40"
+  },
+  {
+    "id": 41,
+    "name": "โต๊ะทำงานพับได้",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/41"
+  },
+  {
+    "id": 42,
+    "name": "เครื่องพิมพ์เลเซอร์ขาวดำ",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/42"
+  },
+  {
+    "id": 43,
+    "name": "สมุดบันทึกปกแข็ง",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/43"
+  },
+  {
+    "id": 44,
+    "name": "ปากกาหมึกเจล 12 สี",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1526406915890-3a2f2e2a9e6d?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/44"
+  },
+  {
+    "id": 45,
+    "name": "เครื่องคิดเลขวิทยาศาสตร์",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/45"
+  },
+  {
+    "id": 46,
+    "name": "กระดานไวท์บอร์ดแม่เหล็ก",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1510552776732-41a19b4e1b17?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/46"
+  },
+  {
+    "id": 47,
+    "name": "แท่นวางโน้ตบุ๊คระบายความร้อน",
+    "category": "สำนักงาน",
+    "image": "https://images.unsplash.com/photo-1512446733611-9099a758e246?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/47"
+  },
+  {
+    "id": 48,
+    "name": "กล่องเก็บของพลาสติก",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/48"
+  },
+  {
+    "id": 49,
+    "name": "กระถางต้นไม้ตกแต่งบ้าน",
+    "category": "เครื่องใช้ในบ้าน",
+    "image": "https://images.unsplash.com/photo-1501183638714-5e2c0b4f86c1?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/49"
+  },
+  {
+    "id": 50,
+    "name": "แปรงสีฟันไฟฟ้า",
+    "category": "สุขภาพ",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=180&q=80",
+    "link": "https://shopee.co.th/product/50"
+  }
+]
