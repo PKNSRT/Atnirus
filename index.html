@@ -358,7 +358,10 @@
     prevBtn.textContent = 'ก่อนหน้า';
     prevBtn.disabled = currentPage === 1;
     prevBtn.addEventListener('click', () => {
-      if (currentPage > 1) renderProducts(filteredProducts, currentPage - 1);
+      if (currentPage > 1) {
+        renderProducts(filteredProducts, currentPage - 1);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     });
     pagination.appendChild(prevBtn);
 
@@ -370,6 +373,7 @@
       btn.addEventListener('click', () => {
         if (i !== currentPage) {
           renderProducts(filteredProducts, i);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       });
       pagination.appendChild(btn);
@@ -380,7 +384,10 @@
     nextBtn.textContent = 'ถัดไป';
     nextBtn.disabled = currentPage === totalPages;
     nextBtn.addEventListener('click', () => {
-      if (currentPage < totalPages) renderProducts(filteredProducts, currentPage + 1);
+      if (currentPage < totalPages) {
+        renderProducts(filteredProducts, currentPage + 1);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     });
     pagination.appendChild(nextBtn);
   }
@@ -410,7 +417,7 @@
   }
 
   window.addEventListener('resize', () => {
-    // คำนวณจำนวนสินค้า/หน้าใหม่แล้วรีเฟรชเพจปัจจุบัน (หรือหน้า 1 กรณีเพจปัจจุบันเกิน)
+    // คำนวณจำนวนสินค้า/หน้าใหม่แล้วรีเฟรชเพจปัจจุบัน (หรือหน้า 1 กรณีเพจปัจจุบันเกินหน้าใหม่)
     updateItemsPerPage();
     const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
     if (currentPage > totalPages) currentPage = totalPages || 1;

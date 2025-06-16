@@ -5,36 +5,32 @@
   <title>จัดการสินค้า</title>
   <style>
     :root {
-      --bg-color: #F7F7F7;          /* พื้นหลังขาวอมเทาอ่อน */
-      --primary-color: #444444;     /* เทากลางเข้ม สำหรับ header, ปุ่มหลัก */
-      --secondary-color: #6E6E6E;   /* เทาเข้มอ่อน สำหรับ hover, ปุ่มรอง */
-      --accent-color: #999999;      /* เทาอ่อน สำหรับไฮไลต์ */
-      --card-bg: #FFFFFF;           /* พื้นหลังการ์ดสีขาว */
-      --text-color: #2E2E2E;        /* ตัวอักษรสีเทาเข้ม */
-      --border-color: #D1D1D1;      /* สีขอบอ่อน */
-      --shadow-color: rgba(0, 0, 0, 0.08);  /* เงานุ่ม */
+      --bg-color: #F7F7F7;
+      --primary-color: #444444;
+      --secondary-color: #6E6E6E;
+      --accent-color: #999999;
+      --card-bg: #FFFFFF;
+      --text-color: #2E2E2E;
+      --border-color: #D1D1D1;
+      --shadow-color: rgba(0, 0, 0, 0.08);
     }
-  
     body {
       font-family: 'Segoe UI', sans-serif;
       background-color: var(--bg-color);
       color: var(--text-color);
       margin: 0;
     }
-  
     header {
       background-color: var(--primary-color);
       padding: 1rem 2rem;
       color: white;
       text-align: center;
     }
-  
     header h1 {
       margin: 0 0 12px 0;
       font-size: 1.5rem;
       font-weight: 600;
     }
-  
     .search-box {
       max-width: 600px;
       margin: 0 auto 20px;
@@ -42,7 +38,6 @@
       width: 100%;
       box-sizing: border-box;
     }
-  
     .search-box input {
       width: 100%;
       padding: 10px 14px;
@@ -54,13 +49,11 @@
       background-color: white;
       color: var(--text-color);
     }
-  
     .search-box input:focus {
       outline: none;
       border-color: var(--accent-color);
       box-shadow: 0 0 8px var(--accent-color);
     }
-  
     .category-bar {
       background: var(--card-bg);
       padding: 10px 20px;
@@ -72,7 +65,6 @@
       margin: 0 auto 24px auto;
       justify-content: center;
     }
-  
     .category-bar button {
       background-color: #E8E8E8;
       border: none;
@@ -88,14 +80,11 @@
       text-align: center;
       box-shadow: 0 2px 4px var(--shadow-color);
     }
-  
     .category-bar button.active {
       background-color: var(--accent-color);
       color: white;
       box-shadow: 0 4px 12px rgba(153, 153, 153, 0.7);
     }
-  
-    /* ปุ่มเพิ่มสินค้า */
     .add-product-btn {
       display: block;
       margin: 0 auto 24px auto;
@@ -110,13 +99,10 @@
       user-select: none;
       box-shadow: 0 3px 8px rgba(68, 68, 68, 0.3);
     }
-  
     .add-product-btn:hover {
       background-color: var(--secondary-color);
       box-shadow: 0 5px 15px rgba(110, 110, 110, 0.4);
     }
-  
-    /* Grid Product */
     .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -129,7 +115,6 @@
       margin: 0 auto;
       min-height: 600px;
     }
-  
     .product-card {
       background: var(--card-bg);
       border-radius: 12px;
@@ -140,12 +125,10 @@
       transition: box-shadow 0.3s ease, transform 0.3s ease;
       cursor: default;
     }
-  
     .product-card:hover {
       box-shadow: 0 8px 20px rgba(0,0,0,0.15);
       transform: translateY(-6px);
     }
-  
     .product-card img {
       width: 100%;
       height: 160px;
@@ -154,11 +137,9 @@
       border-bottom: 1px solid #eee;
       transition: transform 0.3s ease;
     }
-  
     .product-card:hover img {
       transform: scale(1.05);
     }
-  
     .product-card .info {
       padding: 16px 14px;
       flex-grow: 1;
@@ -166,7 +147,6 @@
       flex-direction: column;
       justify-content: space-between;
     }
-  
     .product-card .info p {
       font-size: 15px;
       font-weight: 600;
@@ -177,14 +157,11 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
-  
-    /* ปุ่มแก้ไข ลบ */
     .product-card .actions {
       display: flex;
       gap: 8px;
       margin-top: auto;
     }
-  
     .product-card .actions button {
       flex: 1;
       border: none;
@@ -199,13 +176,10 @@
       box-shadow: 0 3px 8px rgba(153, 153, 153, 0.7);
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
-  
     .product-card .actions button:hover {
       background-color: var(--secondary-color);
       box-shadow: 0 5px 15px rgba(110, 110, 110, 0.8);
     }
-  
-    /* ฟอร์มเพิ่ม/แก้ไขสินค้า (modal) */
     .modal-bg {
       position: fixed;
       inset: 0;
@@ -215,11 +189,9 @@
       align-items: center;
       z-index: 1000;
     }
-  
     .modal-bg.active {
       display: flex;
     }
-  
     .modal {
       background: var(--card-bg);
       border-radius: 12px;
@@ -228,7 +200,6 @@
       max-width: 95vw;
       box-shadow: 0 5px 20px rgba(0,0,0,0.15);
     }
-  
     .modal h2 {
       margin-top: 0;
       color: var(--primary-color);
@@ -236,7 +207,6 @@
       font-size: 1.3rem;
       font-weight: 600;
     }
-  
     .modal label {
       display: block;
       margin-bottom: 4px;
@@ -244,7 +214,6 @@
       color: var(--primary-color);
       font-size: 14px;
     }
-  
     .modal input[type=text],
     .modal input[type=url] {
       width: 100%;
@@ -258,20 +227,17 @@
       background-color: white;
       color: var(--text-color);
     }
-  
     .modal input[type=text]:focus,
     .modal input[type=url]:focus {
       outline: none;
       border-color: var(--accent-color);
     }
-  
     .modal .modal-buttons {
       display: flex;
       justify-content: flex-end;
       gap: 12px;
       margin-top: 12px;
     }
-  
     .modal button {
       padding: 10px 20px;
       border: none;
@@ -281,27 +247,21 @@
       user-select: none;
       transition: background-color 0.3s ease;
     }
-  
     .modal button.save-btn {
       background-color: var(--accent-color);
       color: white;
     }
-  
     .modal button.save-btn:hover {
       background-color: var(--secondary-color);
     }
-  
     .modal button.cancel-btn {
       background-color: #ccc;
       color: #333;
     }
-  
     .modal button.cancel-btn:hover {
       background-color: #999;
       color: white;
     }
-  
-    /* Pagination */
     .pagination {
       display: flex;
       justify-content: center;
@@ -312,7 +272,6 @@
       max-width: 960px;
       margin: 0 auto 40px auto;
     }
-  
     .pagination button {
       border: none;
       background-color: var(--primary-color);
@@ -325,28 +284,21 @@
       min-width: 36px;
       user-select: none;
     }
-  
-    /* Hover สีปุ่มก่อนหน้า, ถัดไป, เลขหน้า (ถ้าไม่ได้ active หรือ disabled) */
     .pagination button:hover:not(.active):not(:disabled) {
       background-color: var(--secondary-color);
       box-shadow: 0 3px 8px rgba(110, 110, 110, 0.7);
     }
-  
-    /* ปุ่ม active */
     .pagination button.active {
       background-color: var(--accent-color);
       cursor: default;
       box-shadow: 0 4px 12px rgba(153, 153, 153, 0.8);
     }
-  
-    /* ปุ่ม disabled */
     .pagination button:disabled {
       opacity: 0.5;
       cursor: default;
       box-shadow: none;
     }
-  </style>  
-  
+  </style>
 </head>
 <body>
 
@@ -405,10 +357,9 @@
 
   let allProducts = [];
   let filteredProducts = [];
-  let itemsPerPage = 25; // 5 x 5 grid
+  let itemsPerPage = 25;
   let currentPage = 1;
-
-  let editIndex = -1; // เก็บตำแหน่งสินค้าที่กำลังแก้ไข (-1 = เพิ่มใหม่)
+  let editIndex = -1;
 
   async function fetchData() {
     try {
@@ -461,10 +412,9 @@
     const pageItems = products.slice(startIndex, endIndex);
 
     pageItems.forEach((prod, i) => {
-      const globalIndex = allProducts.findIndex(p => 
+      const globalIndex = allProducts.findIndex(p =>
         p.name === prod.name && p.category === prod.category && p.image === prod.image && p.link === prod.link
       );
-      
       const card = document.createElement('div');
       card.classList.add('product-card');
       card.dataset.category = prod.category;
@@ -482,12 +432,10 @@
       `;
       productList.appendChild(card);
 
-      // Event Edit
       card.querySelector('.edit-btn').addEventListener('click', () => {
         openModal('edit', globalIndex);
       });
 
-      // Event Delete
       card.querySelector('.delete-btn').addEventListener('click', () => {
         if (confirm(`ต้องการลบสินค้า "${prod.name}" ใช่หรือไม่?`)) {
           allProducts.splice(globalIndex, 1);
@@ -503,19 +451,21 @@
   function renderPagination(totalItems, currentPage) {
     pagination.innerHTML = '';
     const totalPages = Math.ceil(totalItems / itemsPerPage);
-
     if (totalPages <= 1) return;
 
-    // ปุ่มก่อนหน้า
+    // ก่อนหน้า
     const prevBtn = document.createElement('button');
     prevBtn.textContent = 'ก่อนหน้า';
     prevBtn.disabled = currentPage === 1;
     prevBtn.addEventListener('click', () => {
-      if (currentPage > 1) renderProducts(filteredProducts, currentPage - 1);
+      if (currentPage > 1) {
+        renderProducts(filteredProducts, currentPage - 1);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     });
     pagination.appendChild(prevBtn);
 
-    // ปุ่มเลขหน้า
+    // เลขหน้า
     for(let i = 1; i <= totalPages; i++) {
       const btn = document.createElement('button');
       btn.textContent = i;
@@ -523,17 +473,21 @@
       btn.addEventListener('click', () => {
         if (i !== currentPage) {
           renderProducts(filteredProducts, i);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       });
       pagination.appendChild(btn);
     }
 
-    // ปุ่มถัดไป
+    // ถัดไป
     const nextBtn = document.createElement('button');
     nextBtn.textContent = 'ถัดไป';
     nextBtn.disabled = currentPage === totalPages;
     nextBtn.addEventListener('click', () => {
-      if (currentPage < totalPages) renderProducts(filteredProducts, currentPage + 1);
+      if (currentPage < totalPages) {
+        renderProducts(filteredProducts, currentPage + 1);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     });
     pagination.appendChild(nextBtn);
   }
@@ -542,13 +496,11 @@
     updateItemsPerPage();
     const keyword = searchInput.value.toLowerCase();
     const activeCategory = document.querySelector('.category-bar button.active').dataset.filter;
-
     filteredProducts = allProducts.filter(product => {
       const matchCategory = activeCategory === 'all' || product.category === activeCategory;
       const matchKeyword = product.name.toLowerCase().includes(keyword);
       return matchCategory && matchKeyword;
     });
-
     renderProducts(filteredProducts, page);
   }
 
@@ -571,87 +523,59 @@
     }
     modalBg.classList.add('active');
   }
-
   function closeModal() {
     modalBg.classList.remove('active');
   }
-
   function saveToStorage() {
     // ใช้ in-memory storage แทน localStorage เพื่อให้ทำงานใน Claude.ai
     // ข้อมูลจะหายไปเมื่อ refresh หน้า
     console.log('บันทึกข้อมูลแล้ว:', allProducts.length, 'รายการ');
   }
-
   function refreshUI() {
-    // สร้าง list หมวดหมู่จากข้อมูลสินค้า
     const categories = [...new Set(allProducts.map(p => p.category))].sort((a, b) => a.localeCompare(b));
     renderCategoryButtons(categories);
     filterAndPaginate(1);
   }
-
-  // Save button modal
   saveBtn.addEventListener('click', () => {
     const name = productNameInput.value.trim();
     const category = productCategoryInput.value.trim();
     const image = productImageInput.value.trim();
     const link = productLinkInput.value.trim();
-
     if (!name || !category) {
       alert('กรุณากรอกชื่อสินค้าและหมวดหมู่');
       return;
     }
-
     if (editIndex >= 0) {
-      // แก้ไขสินค้า
       allProducts[editIndex] = { name, category, image, link };
     } else {
-      // เพิ่มสินค้าใหม่
       allProducts.push({ name, category, image, link });
     }
-
     saveToStorage();
     refreshUI();
     closeModal();
   });
-
-  // Cancel modal
-  cancelBtn.addEventListener('click', () => {
-    closeModal();
-  });
-
-  // เปิด modal เพิ่มสินค้า
+  cancelBtn.addEventListener('click', () => { closeModal(); });
   addProductBtn.addEventListener('click', () => openModal('add'));
-
-  // Search input event
   searchInput.addEventListener('input', () => filterAndPaginate(1));
-
-  // Click outside modal to close
   modalBg.addEventListener('click', (e) => {
-    if (e.target === modalBg) {
-      closeModal();
-    }
+    if (e.target === modalBg) closeModal();
   });
 
-  // โหลดข้อมูลเริ่มต้น
-  
   function getColumnCount() {
     const gridStyles = window.getComputedStyle(productList);
     const columns = gridStyles.getPropertyValue('grid-template-columns');
     return columns.split(' ').length;
   }
-
   function updateItemsPerPage() {
     const colCount = getColumnCount();
     itemsPerPage = colCount * 5;
   }
-
-async function init() {
+  async function init() {
     allProducts = await fetchData();
     const uniqueCategories = [...new Set(allProducts.map(p => p.category))].sort((a, b) => a.localeCompare(b));
     renderCategoryButtons(uniqueCategories);
     filterAndPaginate(1);
   }
-
   init();
   window.addEventListener('resize', () => {
     updateItemsPerPage();
@@ -659,8 +583,6 @@ async function init() {
     if (currentPage > totalPages) currentPage = totalPages || 1;
     renderProducts(filteredProducts, currentPage);
   });
-
 </script>
-
 </body>
 </html>
